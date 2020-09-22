@@ -1,0 +1,10 @@
+@mixin estilos {
+    font-size: 12px;
+    padding-left: 23px;
+    background-size: 8px;
+    background-position: 0 5px;
+}
+
+h3{
+    @include estilos
+}
